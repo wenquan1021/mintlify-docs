@@ -1,70 +1,15 @@
 ---
 title: "What Mumble Can Help With"
-description: "The navigation field in docs.json defines the pages that go in the navigation menu"
 icon: "comment"
 ---
 
-<CodeGroup>
+Mumble is more than a voice dictation tool. It understands what you want to do, generates content, manages your calendar and contacts, and helps you stay organized while thinking faster across your workspace.
 
-```json Regular Navigation
-        }
-      ]
-    }
-  ]
-}
-```
+Mumble can:
 
+- manage tasks, contacts, and notes directly inside the app
+- draft content based on your instructions
+- answer questions to help you plan, brainstorm, and clarify ideas
+- turn your voice comments into structured outputs whenever you need them
 
-```json Nested Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Nested Reference Pages",
-              "pages": ["nested-reference-page"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
-
-</CodeGroup>
-
-## Folders
-
-Simply put your MDX files in folders and update the paths in `docs.json`.
-
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
-
-<Warning>
-  You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-</Warning>
-
-```json Navigation With Folder
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Group Name",
-          "pages": ["your-folder/your-page"]
-        }
-      ]
-    }
-  ]
-}
-```
-
-## Hidden pages
-
-MDX files not included in `docs.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+Mumble grows with your workflow and is always ready to help you get things done!
