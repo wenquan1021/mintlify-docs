@@ -1,88 +1,23 @@
 ---
 title: "AI Draft"
-description: "Text, title, and styling in standard markdown"
 icon: "notes"
 ---
 
-## Titles
+- What AI Draft does
 
-Best used for section headers.
+  AI Draft lets you create content by talking to Mumble. You can generate emails, messages, summaries, or any written draft with just a short input or voice command. You do not need to write full sentences. Just tell Mumble what you want, and it will create a clean first draft for you.
+- How to generate a draft
 
-```md
-## Titles
-```
+  Click the “+” under the note title and select AI Draft. Then talk to Mumble or type your request:
+  - start with a short prompt
+  - use voice input instead of typing
+  - apply a template so Mumble generates content in a specific structure
 
-### Subtitles
 
-Best used for subsection headers.
+- How to refine or regenerate content
 
-```md
-### Subtitles
-```
-
-<Tip>
-  Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
-</Tip>
-
-## Text formatting
-
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
-
-| Style         | How to write it   | Result            |
-| ------------- | ----------------- | ----------------- |
-| Bold          | `**bold**`        | **bold**          |
-| Italic        | `_italic_`        | _italic_          |
-| Strikethrough | `~strikethrough~` | ~~strikethrough~~ |
-
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
-
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
-
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
-
-## Linking to pages
-
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>
-  8 x (vk x H1 - H2) = (0,1)
-</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+  Here are several ways to refine an AI Draft:
+  - Select the part you want to change and hold option to edit it using voice
+  - Click “Edit with AI” in the top right and tell Mumble how to improve the content
+  - Manually edit the text directly
+  - Click “Re-generate” to create a new version of the draft
