@@ -12,13 +12,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Official Website",
           "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
+          "color": {
+            "light": "#3F6DFB",
+            "dark": "#3F6DFB"
+          },
+          "href": "https://www.heymumble.com/"
         },
         {
           "anchor": "Blog",
           "icon": "newspaper",
+          "hidden": true,
           "href": "https://mintlify.com/blog"
         }
       ]
