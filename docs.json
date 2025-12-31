@@ -69,7 +69,8 @@
   },
   "logo": {
     "light": "/logo/logo_white&dark.svg",
-    "dark": "/logo/logo_white&dark.svg"
+    "dark": "/logo/logo_white&dark.svg",
+    "href": "https://www.heymumble.com"
   },
   "navbar": {
     "links": [
