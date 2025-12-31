@@ -71,6 +71,9 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "og": {
+    "image": "/hero.png"
+  },
   "navbar": {
     "links": [
       {
