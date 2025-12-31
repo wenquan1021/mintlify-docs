@@ -2,6 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
   "name": "Mumble AI",
+    "metadata": {
+    "title": "Mumble AI Help Center",
+    "description": "Your place to find guides and tips for Mumble AI",
+    "image": "/images/hero.png"
+  },
   "colors": {
     "primary": "#3F6DFB",
     "light": "#F1F5FF",
