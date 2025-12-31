@@ -35,8 +35,8 @@
           {
             "group": "Mumble AI 101",
             "pages": [
-              "index",
-              "quickstart"
+              "mumble-ai-101/what-is-mumble-ai",
+              "mumble-ai-101/getting-started"
             ]
           },
           {
