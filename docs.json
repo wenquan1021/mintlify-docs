@@ -40,9 +40,9 @@
           {
             "group": "Template",
             "pages": [
-              "managing-template",
+              "untitled-page",
               "creating-template",
-              "untitled-page"
+              "managing-template"
             ]
           },
           {
@@ -55,12 +55,12 @@
           {
             "group": "AI Chat: meet with Mumble",
             "pages": [
-              "guides/ai-chat/voice-skill-3",
-              "guides/ai-chat/voice-skill-2",
-              "guides/ai-chat/voice-skill-1",
               "guides/ai-chat/how-to-access-mumble",
               "guides/ai-chat/explore-chat",
-              "guides/ai-chat/what-mumble-can-help-with"
+              "guides/ai-chat/what-mumble-can-help-with",
+              "guides/ai-chat/voice-skill-1",
+              "guides/ai-chat/voice-skill-2",
+              "guides/ai-chat/voice-skill-3"
             ]
           },
           {
