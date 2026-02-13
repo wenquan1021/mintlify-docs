@@ -74,6 +74,7 @@
           {
             "group": "Template",
             "pages": [
+              "template-overview",
               "creating-template",
               "managing-template"
             ]
