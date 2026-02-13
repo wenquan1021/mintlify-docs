@@ -47,6 +47,8 @@
           {
             "group": "AI Chat: meet with Mumble",
             "pages": [
+              "guides/ai-chat/voice-skill-3",
+              "guides/ai-chat/voice-skill-2",
               "guides/ai-chat/voice-skill-1",
               "guides/ai-chat/how-to-access-mumble",
               "guides/ai-chat/explore-chat",
