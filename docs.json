@@ -49,7 +49,12 @@
             "pages": [
               "guides/ai-chat/how-to-access-mumble",
               "guides/ai-chat/explore-chat",
-              "guides/ai-chat/what-mumble-can-help-with",
+              "guides/ai-chat/what-mumble-can-help-with"
+            ]
+          },
+          {
+            "group": "Voice Skill",
+            "pages": [
               "guides/ai-chat/voice-skill-1",
               "guides/ai-chat/voice-skill-2",
               "guides/ai-chat/voice-skill-3"
