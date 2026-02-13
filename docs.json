@@ -38,6 +38,14 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Template",
+            "pages": [
+              "managing-template",
+              "creating-template",
+              "untitled-page"
+            ]
+          },
+          {
             "group": "Mumble AI 101",
             "pages": [
               "guides/mumble-ai-101/what-is-mumble-ai",
