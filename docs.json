@@ -83,6 +83,13 @@
               "creating-template",
               "managing-template"
             ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "dictation-outside-mumble",
+              "local-voice-model"
+            ]
           }
         ]
       }
