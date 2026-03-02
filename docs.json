@@ -24,74 +24,18 @@
             "dark": "#3F6DFB"
           },
           "href": "https://www.heymumble.com/"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "hidden": true,
-          "href": "https://mintlify.com/blog"
         }
       ]
     },
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Mumble AI 101",
-            "pages": [
-              "guides/mumble-ai-101/what-is-mumble-ai",
-              "guides/mumble-ai-101/getting-started"
-            ]
-          },
-          {
-            "group": "AI Chat: meet with Mumble",
-            "pages": [
-              "guides/ai-chat/how-to-access-mumble",
-              "guides/ai-chat/explore-chat",
-              "guides/ai-chat/what-mumble-can-help-with"
-            ]
-          },
-          {
-            "group": "Voice Skill",
-            "pages": [
-              "guides/ai-chat/voice-skill-1",
-              "guides/ai-chat/voice-skill-2",
-              "guides/ai-chat/voice-skill-3"
-            ]
-          },
-          {
-            "group": "Notes",
-            "pages": [
-              "guides/notes/notes-overview",
-              "guides/notes/smart-notes",
-              "guides/notes/ai-draft",
-              "guides/notes/template"
-            ]
-          },
-          {
-            "group": "Meetings",
-            "pages": [
-              "guides/meetings/meetings-overview",
-              "guides/meetings/meeting-summary"
-            ]
-          },
-          {
-            "group": "Template",
-            "pages": [
-              "template-overview",
-              "creating-template",
-              "managing-template"
-            ]
-          },
-          {
-            "group": "Settings",
-            "pages": [
-              "dictation-outside-mumble",
-              "local-voice-model"
-            ]
-          }
-        ]
+        "anchor": "Blogs",
+        "icon": "note",
+        "color": {
+          "light": "#3F6DFB",
+          "dark": "#3F6DFB"
+        },
+        "href": "https://www.heymumble.com/blogs"
       }
     ]
   },
