@@ -27,9 +27,11 @@
         },
         {
           "anchor": "Blog",
-          "icon": "newspaper",
-          "hidden": true,
-          "href": "https://mintlify.com/blog"
+          "color": {
+            "light": "#3F6DFB",
+            "dark": "#3F6DFB"
+          },
+          "href": "https://www.heymumble.com/blogs"
         }
       ]
     },
