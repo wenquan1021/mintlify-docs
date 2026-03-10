@@ -97,7 +97,7 @@
           {
             "group": "Settings",
             "pages": [
-              "local-voice-model"
+              "guides/settings/local-voice-model"
             ]
           }
         ]
