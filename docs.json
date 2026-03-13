@@ -13,6 +13,12 @@
     "dark": "#7597FF"
   },
   "favicon": "/favicon.svg",
+  "seo": {
+    "metatags": {
+      "og:image": "/images/help_center_hero.png",
+      "twitter:image": "/images/help_center_hero.png"
+    }
+  }
   "navigation": {
     "global": {
       "anchors": [
