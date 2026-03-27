@@ -1,16 +1,30 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "maple",
   "name": "Mumble AI Help Center",
-    "metadata": {
+  "metadata": {
     "title": "Mumble AI Help Center",
     "description": "Your place to find guides and tips for Mumble AI",
     "image": "/images/hero.png"
   },
   "colors": {
     "primary": "#3F6DFB",
-    "light": "#F1F5FF",
-    "dark": "#7597FF"
+    "light": "#EEF2FF",
+    "dark": "#7597FF",
+    "background": {
+      "light": "#F7F5F0",
+      "dark": "#1A1A2E"
+    }
+  },
+  "font": {
+    "headings": {
+      "family": "Playfair Display",
+      "weight": 700
+    },
+    "body": {
+      "family": "DM Sans",
+      "weight": 400
+    }
   },
   "favicon": "/favicon.svg",
   "seo": {
@@ -24,18 +38,19 @@
       "anchors": [
         {
           "anchor": "Official Website",
-          "icon": "book-open-cover",
+          "icon": "globe",
           "color": {
             "light": "#3F6DFB",
-            "dark": "#3F6DFB"
+            "dark": "#7597FF"
           },
           "href": "https://www.heymumble.com/"
         },
         {
           "anchor": "Blog",
+          "icon": "newspaper",
           "color": {
             "light": "#3F6DFB",
-            "dark": "#3F6DFB"
+            "dark": "#7597FF"
           },
           "href": "https://www.heymumble.com/blogs"
         }
@@ -43,17 +58,24 @@
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Getting Started",
         "groups": [
           {
             "group": "Mumble AI 101",
+            "icon": "rocket",
             "pages": [
               "guides/mumble-ai-101/what-is-mumble-ai",
               "guides/mumble-ai-101/getting-started"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
           {
             "group": "Meetings",
+            "icon": "video",
             "pages": [
               "guides/meetings/meetings-overview",
               "guides/meetings/meeting-summary"
@@ -61,6 +83,7 @@
           },
           {
             "group": "Notes",
+            "icon": "pen",
             "pages": [
               "guides/notes/notes-overview",
               "guides/notes/smart-notes",
@@ -69,15 +92,8 @@
             ]
           },
           {
-            "group": "Template",
-            "pages": [
-              "guides/template/template-overview",
-              "guides/template/creating-template",
-              "guides/template/managing-template"
-            ]
-          },
-          {
             "group": "Dictation",
+            "icon": "microphone",
             "pages": [
               "global-dictation",
               "guides/dictation/global-dictation-panel",
@@ -85,23 +101,45 @@
             ]
           },
           {
-            "group": "AI Chat: meet with Mumble",
+            "group": "AI Chat",
+            "icon": "message-bot",
             "pages": [
               "guides/ai-chat/how-to-access-mumble",
               "guides/ai-chat/explore-chat",
               "guides/ai-chat/what-mumble-can-help-with"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Templates & Skills",
+        "groups": [
+          {
+            "group": "Template",
+            "icon": "layout",
+            "pages": [
+              "guides/template/template-overview",
+              "guides/template/creating-template",
+              "guides/template/managing-template"
+            ]
           },
           {
-            "group": "Voice Skill",
+            "group": "Voice Skills",
+            "icon": "wand-magic-sparkles",
             "pages": [
               "guides/ai-chat/voice-skill-1",
               "guides/ai-chat/voice-skill-2",
               "guides/ai-chat/voice-skill-3"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Settings",
+        "groups": [
           {
             "group": "Settings",
+            "icon": "gear",
             "pages": [
               "guides/settings/local-voice-model"
             ]
@@ -128,15 +166,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
