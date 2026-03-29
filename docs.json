@@ -58,21 +58,16 @@
     },
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Mumble AI for Mac",
         "groups": [
           {
-            "group": "Mumble AI 101",
+            "group": "Getting Started",
             "icon": "rocket",
             "pages": [
               "guides/mumble-ai-101/what-is-mumble-ai",
               "guides/mumble-ai-101/getting-started"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Features",
-        "groups": [
+          },
           {
             "group": "Meetings",
             "icon": "video",
@@ -108,40 +103,36 @@
               "guides/ai-chat/explore-chat",
               "guides/ai-chat/what-mumble-can-help-with"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Templates & Skills",
-        "groups": [
+          },
           {
-            "group": "Template",
-            "icon": "layout",
+            "group": "Templates & Skills",
+            "icon": "wand-magic-sparkles",
             "pages": [
               "guides/template/template-overview",
               "guides/template/creating-template",
-              "guides/template/managing-template"
-            ]
-          },
-          {
-            "group": "Voice Skills",
-            "icon": "wand-magic-sparkles",
-            "pages": [
+              "guides/template/managing-template",
               "guides/ai-chat/voice-skill-1",
               "guides/ai-chat/voice-skill-2",
               "guides/ai-chat/voice-skill-3"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Settings",
-        "groups": [
+          },
           {
             "group": "Settings",
             "icon": "gear",
             "pages": [
               "guides/settings/local-voice-model"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Mumble AI for iPhone",
+        "groups": [
+          {
+            "group": "iPhone",
+            "icon": "mobile",
+            "pages": [
+              "guides/iphone/coming-soon"
             ]
           }
         ]
